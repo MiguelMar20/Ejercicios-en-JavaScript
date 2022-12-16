@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+    </head>
+    <body>
+        <script>
+            var opcion=0;
+            do{
+                opcion=Number(prompt(`Menú de recomendaciones\n
+                1. Literatura\n
+                2. Cine\n
+                0. Salir\n
+                Elija una opcion (1-2-0):`))
+                switch(opcion){
+                    case 1:
+                        alert("Lecturas recomendables:\n" +
+                        " + Esperándolo a Tito y otros cuentos de fúbol (Eduardo Sacheri)")
+                    break;
+                    case 2:
+                        alert("Películas recomendables:")
+                    break;
+                    case 0:
+                        alert("Gracias, vuelva pronto")
+                    break;
+                }
+
+            }while(opcion!=0)
+        </script>
+    </body>
+</html>
